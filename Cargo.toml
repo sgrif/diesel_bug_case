@@ -1,0 +1,8 @@
+[package]
+name = "db"
+version = "0.1.0"
+authors = ["Kalita Alexey <kalita.alexey@outlook.com>"]
+
+[dependencies]
+diesel = { version = "*", features = ["sqlite"] }
+diesel_codegen = "*"
